@@ -31,5 +31,5 @@ This allow using resulted jdk with injected jre folder that [packr](https://gith
 
 # why this was created
 Some tools f.e. libgdx [packr](https://github.com/libgdx/packr) need jre folder inside jdk for correct work, because was updated before java change jdk structure.  
-Modern jdk (version 9+) have different structure of JRE , which break the [packr](https://github.com/libgdx/packr) work flow.  
+Modern jdk (version 9+) have different structure of JDK , which break the [packr](https://github.com/libgdx/packr) work flow.  
 This script `jrec.py` generate the jre folder inside jdk folder , using jlink java tool.
